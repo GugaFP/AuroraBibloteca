@@ -117,10 +117,110 @@ main{
     line-height: 45px;
 }
 
+.sobreimg{
+  position: relative;
+}
+
 .sobreimg img{
     height: 550px;
     width: 470px;
 }
+
+.sobreimg button{
+  position: absolute;
+
+  top: 520px;
+  right: 125px;
+
+  height: 42px;
+  width: 210px;
+  
+  background: #F56C38;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+.sobreimg a{
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+
+  color: white;
+  text-decoration: none;
+}
+
+.sobreimg button:hover{
+  background: #c9582c;
+}
+.sobreimg a:hover{
+  color: rgb(228, 227, 227);
+}
+
+/*Fim do Sobre*/
+/*Projetos*/
+
+#Projetos{
+
+}
+
+.img {
+  width: 100%;
+  height: 300px;
+  background-image: url(img/ImagemOpacidade.png);
+
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+
+  position: relative;
+}
+
+.img h2{
+  font-family: "Poppins";
+  font-size: 35px;
+  color: white;
+
+  text-decoration: none;
+}
+
+.img a{
+  font-family: "Poppins";
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+
+  text-decoration: none;
+}
+
+.img button{
+  position: absolute;
+
+  top: 170px;
+  left: 135px;
+
+  height: 42px;
+  width: 210px;
+  
+  background: #F56C38;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.img button:hover{
+  background: #c9582c;
+}
+.img a:hover{
+  color: rgb(228, 227, 227);
+}
+/*Fim dos Projetos*/
+/*Produtos*/
+
+#Produtos{
+  height: 1000px;
+}
+
 
 
 
