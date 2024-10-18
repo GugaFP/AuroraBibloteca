@@ -218,9 +218,72 @@ main{
 /*Produtos*/
 
 #Produtos{
-  height: 1000px;
+  height: 2000px;
 }
 
+#Produtos h2{
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 35px;
+  color: #2D3A65;
+
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.imgsobre{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 110px;
+}
+
+.imgsobre img{
+  border-radius: 15px;
+}
+
+.imgsobre a{
+  background: #F56C38;
+  height: 42px;
+  width: 210px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+
+  text-decoration: none;
+
+  font-family: "Poppins";
+  font-weight: 700;
+  color: white;
+
+}
+
+.imgsobre a:hover{
+  background: #c9582c;
+}
+
+.textoimg{
+  margin-top: 20px;
+  
+  display: flex;
+  gap: 210px;
+
+  border: black 2px solid;
+}
+
+.textoimg p{
+  font-family: "Poppins";
+  font-weight: 400;
+  color: var(--azul-escuro-aurora);
+
+  margin-left: 150px;
+}
 
 
 
